@@ -92,7 +92,7 @@ const turnoPc = ( valorMinimo ) => {
         puntosComputadora = puntosComputadora + valorCarta(carta);
         puntosHtml[1].innerText = puntosComputadora;
         const imgCarta = document.createElement('img');
-        imgCarta.src = `assets/cartas/${ carta }.png`;
+        imgCarta.src = `src/assets/cartas/${ carta }.png`;
         imgCarta.classList.add('carta')  
         divCartasPC.append( imgCarta )
 
@@ -158,7 +158,7 @@ btnPedir.addEventListener('click', () => {
 
     
     const imgCarta = document.createElement('img');
-    imgCarta.src = `assets/cartas/${ carta }.png`;
+    imgCarta.src = `src/assets/cartas/${ carta }.png`;
     imgCarta.classList.add('carta')  
     divCartasJugador.append( imgCarta );
 
