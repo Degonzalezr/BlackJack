@@ -2,6 +2,7 @@
 // patrón modulo, permite asegurar el codigo para ser identificado y cambiado por el usuario en el navegador
 
 (()  => {
+    
     // use strict le dice a JavaScript que sea estricto al evaluar mi codigo para no dejar pasar ningun error
     'use strict'
     
